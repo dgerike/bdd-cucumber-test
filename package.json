@@ -1,0 +1,23 @@
+{
+  "name": "bdd-cucumber-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgerike/bdd-cucumber-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgerike/bdd-cucumber-test/issues"
+  },
+  "homepage": "https://github.com/dgerike/bdd-cucumber-test#readme",
+  "devDependencies": {
+    "cucumber": "^5.0.2",
+    "puppeteer": "^1.9.0"
+  }
+}
