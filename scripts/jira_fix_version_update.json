@@ -2,9 +2,8 @@
   "update": {
     "fixVersions": [
       {
-        "add": {"name":"2018.3"}
+        "add": {"name":"2018.1"}
       }
     ]
-
   }
 }
