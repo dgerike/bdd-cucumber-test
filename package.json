@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --format json > reports/report.json"
+    "test": "cucumber-js --format json > reports/report.json",
+    "local_test": "cucumber-js"
   },
   "repository": {
     "type": "git",
