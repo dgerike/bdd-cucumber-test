@@ -18,6 +18,7 @@
   "homepage": "https://github.com/dgerike/bdd-cucumber-test#readme",
   "devDependencies": {
     "cucumber": "^5.0.2",
+    "expect-puppeteer": "^3.4.0",
     "puppeteer": "^1.9.0"
   }
 }
