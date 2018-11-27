@@ -1,11 +1,10 @@
 const { Given, Then, When, Before, After } = require('cucumber');
 const expect = require('expect-puppeteer');
-// const assert = require('assert');
 const { setDefaultTimeout } = require('cucumber');
 setDefaultTimeout(10 * 1000);
 
 Before(async function () {
-    return await this.openLoginPage();
+    return await this.openBrowser();
 });
 
 Given('I am not logged in', async function () {
@@ -71,5 +70,5 @@ Then('I am redirected to the page {string}', async function (destination) {
 });
 
 After(async function () {
-    return await this.closeLoginPage();
+    return await this.closeBrowser();
 });
