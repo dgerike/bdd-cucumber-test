@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js --format json > reports/report.json",
+    "test": "cucumber-js --format json | cucumber-junit > reports/report.xml",
     "local_test": "cucumber-js"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/dgerike/bdd-cucumber-test#readme",
   "devDependencies": {
     "cucumber": "^5.0.2",
+    "cucumber-junit": "^1.7.1",
     "expect-puppeteer": "^3.4.0",
     "puppeteer": "^1.9.0"
   }
